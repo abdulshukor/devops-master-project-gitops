@@ -10,7 +10,7 @@ namespace: study-app
 namePrefix: dev-
 
 images:
-  - name: backend
-    newTag: dev
-  - name: frontend
-    newTag: dev
+  - name: ghcr.io/abdulshukor/devops-master-api
+    newTag: backend-v0.2.0
+  - name: ghcr.io/abdulshukor/devops-master-web
+    newTag: frontend-v0.1.0
